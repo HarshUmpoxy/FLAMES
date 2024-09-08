@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fafafa;
+}
+
+header, footer {
+  background-color: #f639a7;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Styles for centering the FlamesCalculator component */
+.flames-calculator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh; /* Full viewport height */
+  background-color: #f9f9f9; /* Light background color */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Styles for input fields */
+input {
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 250px; /* Increased width */
+  font-size: 16px; /* Increased font size */
+}
+
+/* Styles for the button */
+button {
+  padding: 15px 25px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px; /* Increased font size */
+  margin-top: 20px;
+}
+
+button:disabled {
+  background-color: #a9a9a9;
+}
+
+button:hover:not(:disabled) {
+  background-color: #45a049;
+}
+
+/* Styles for the loading animation */
+.loading-animation {
+  font-size: 24px;
+  color: #888;
+  margin-top: 20px;
+}
+
+/* Styles for the result display */
+.result {
+  margin-top: 20px;
+  font-size: 28px; /* Increased font size */
+  font-weight: bold;
+  color: #333; /* Darker text color for better readability */
+}
