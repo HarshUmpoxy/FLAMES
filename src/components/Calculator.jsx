@@ -45,6 +45,7 @@ const FlamesCalculator = () => {
         index = (index + uniqueLength - 1) % flames.length;
         flames.splice(index, 1); // Remove the element at the calculated index
         console.log(flames);
+        index=0;
     }
 
     // Return the meaning of the last remaining letter
