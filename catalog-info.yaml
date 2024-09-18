@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: flames-game
+  description: "FLAMES game built using React. FLAMES is a fun game to predict the relationship between two people based on their names."
+  tags:
+    - react
+    - game
+    - frontend
+    - flames
+  annotations:
+    github.com/project-slug: personal/flames-game
+spec:
+  type: website  # You can also specify service if this is running as a backend service
+  lifecycle: production
+  owner: your-team-name
+  system: frontend-apps  # If you have a system where the game fits, otherwise you can remove this
+  dependsOn: []
